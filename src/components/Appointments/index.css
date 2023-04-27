@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding: 40px;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.main-form-container {
+  display: flex;
+  justify-content: space-between;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.appointment-image {
+  height: 300px;
+  width: 500px;
+}
+.inputTitle {
+  padding: 5px;
+  margin: 10px;
+}
+.userDate {
+  padding: 5px;
+  margin: 10px;
+}
+.button {
+  background-color: #8b5cf6;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 150px;
+  margin: 5px;
+  margin-top: 20px;
+}
+
+.lables {
+  color: #171f46;
+  font-size: 10px;
+  font-family: Roboto;
+}
+.horizontal-line {
+  border: none;
+  border-top: 2px solid black;
+  margin: 7px;
+}
+.appointments {
+  font-size: Roboto;
+  font-size: 17px;
+  display: inline;
+  color: #171f46;
+  font-weight: 500;
+}
+.appoint-star-container {
+  display: flex;
+  justify-content: space-between;
+}
+.starButton {
+  border-color: #8b5cf6;
+  border-radius: 10px;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  align-self: center;
+}
+.star2 {
+  background-color: #8b5cf6;
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  align-self: center;
+}
+.ul-contianer {
+  flex-wrap: wrap;
+}
